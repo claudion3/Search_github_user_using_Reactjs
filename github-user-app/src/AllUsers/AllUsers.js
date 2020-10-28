@@ -11,7 +11,7 @@ const AllUsers = () => {
 				<div key={user.id}>
 					{console.log("see", user)}
 					<div className="user">
-						<img src={user.avatar_url}></img>
+						<img src={user.avatar_url} alt="avatar"></img>
 						<h2>
 							<a href={user.html_url}>{user.login}</a>
 						</h2>
