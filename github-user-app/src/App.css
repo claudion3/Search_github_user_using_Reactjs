@@ -1,0 +1,165 @@
+/*................................ App.......................................*/
+.navigation-bar {
+	overflow: hidden;
+	background: radial-gradient(
+		circle,
+		rgba(31, 85, 97, 0.9984944661458334) 0%,
+		rgba(1, 1, 23, 1) 100%
+	);
+}
+/* navbar links */
+
+.navigation-bar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+footer {
+	clear: both;
+	padding: 10px;
+	color: rgb(245, 245, 252);
+	text-align: center;
+	background: radial-gradient(
+		circle,
+		rgba(31, 85, 97, 0.9984944661458334) 0%,
+		rgba(1, 1, 23, 1) 100%
+	);
+	height: 90px;
+	line-height: 2.5;
+}
+
+/* This style will make a vertical navigation bar with the links in list all float to the right */
+
+.navigation-bar li a {
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	float: left;
+}
+
+/* Change color on hover for navigation bar */
+
+.navigation-bar a:hover {
+	background-color: #ddd;
+	color: black;
+}
+/*................................ HOME.......................................*/
+.app-wrap {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background: radial-gradient(
+		circle,
+		rgba(157, 218, 231, 0.998) 0%,
+		rgb(84, 84, 100) 100%
+	);
+}
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2% 20% 2%;
+}
+
+/*................................ About.......................................*/
+.about {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background: radial-gradient(
+		circle,
+		rgba(157, 218, 231, 0.998) 0%,
+		rgb(84, 84, 100) 100%
+	);
+}
+.tex-about {
+	padding: 25px 25px 50px;
+	display: flex;
+	margin: 2% 33% 2%;
+	flex-direction: column;
+	align-items: center;
+	text-align: left;
+	width: 30%;
+	box-shadow: 0 0 10px #00000070;
+}
+/*................................ Searchusers.......................................*/
+main {
+	flex: 1 1 100%;
+	padding: 25px 25px 50px;
+	display: flex;
+	margin: 2% 33% 2%;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 30%;
+	overflow: auto;
+}
+main input {
+	width: 100%;
+	max-width: 60%;
+	padding: 10px 15px;
+	border: none;
+	outline: none;
+	background-color: rgba(240, 239, 239, 0.452);
+	border-radius: 16px 16px 16px 16px;
+	color: black;
+	font-size: 20px;
+	font-weight: 600;
+	transition: 0.2s ease-out;
+}
+main input:focus {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.user {
+	width: 80%;
+	display: flex;
+	padding: 7%;
+	margin: 3%;
+	align-items: center;
+	box-shadow: 0 0 10px #00000070;
+}
+.user img {
+	width: 40%;
+	border-radius: 50%;
+	text-decoration: none;
+}
+.user a {
+	text-decoration: none;
+}
+.user h2 {
+	width: 20%;
+	margin: 18% 9% 12%;
+	display: flex;
+}
+/*..................Responsive layout - when the screen is less than 467px width..........................*/
+@media screen and (max-width: 467px) {
+	.app-wrap {
+		width: 100%;
+	}
+	main {
+		flex: 1 1 100%;
+		padding: 3%;
+		margin: 1% 3% 1% -2%;
+		width: 100%;
+	}
+	.about {
+		padding: 3%;
+		margin: -1% 3% -1% -2%;
+		width: 100%;
+	}
+	.tex-about {
+		width: 50%;
+		margin: 4% 3% 1% 20%;
+	}
+	.navigation-bar a {
+		float: none;
+		width: 100%;
+		background: radial-gradient(
+			circle,
+			rgba(31, 85, 97, 0.9984944661458334) 0%,
+			rgba(1, 1, 23, 1) 100%
+		);
+	}
+}
