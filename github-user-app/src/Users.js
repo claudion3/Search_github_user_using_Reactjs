@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import SearchUsers from "./SearchUsers";
-import UserContext from "./UserContex";
+import SearchUsers from "./SearchUsers/SearchUsers";
+import UserContext from "./UserContex/UserContex";
 const Users = () => {
 	const [users, setUsers] = useState([]);
 	const [query, setQuery] = useState("");

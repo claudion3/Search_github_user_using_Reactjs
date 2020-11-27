@@ -1,6 +1,6 @@
 import React, { useEffect, useContext } from "react";
-import AllUsers from "../AllUsers";
-import UserContext from "../UserContex";
+import AllUsers from "../AllUsers/AllUsers";
+import UserContext from "../UserContex/UserContex";
 
 const SearchUsers = () => {
 	const {

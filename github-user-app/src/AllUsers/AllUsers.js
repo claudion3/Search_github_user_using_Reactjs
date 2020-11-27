@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import UserContext from "../UserContex";
+import UserContext from "../UserContex/UserContex";
 
 const AllUsers = () => {
 	const { users, query } = useContext(UserContext);
