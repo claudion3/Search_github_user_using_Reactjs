@@ -1,6 +1,5 @@
 
-
-#About this project
+# About this project
 
 I created this application as the final project of my REACT course.
 For building it I used React Router, Refs, Context and other different Hooks.
