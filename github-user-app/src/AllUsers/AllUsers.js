@@ -9,7 +9,6 @@ const AllUsers = () => {
 		getResult = users.map((user) => {
 			return (
 				<div key={user.id}>
-					{console.log("see", user)}
 					<div className="user">
 						<img src={user.avatar_url} alt="avatar"></img>
 						<h2>
@@ -24,4 +23,5 @@ const AllUsers = () => {
 	}
 	return <div>{getResult}</div>;
 };
+
 export default AllUsers;
