@@ -9,4 +9,4 @@ on username it will take you to the person profile on GitHub
 
 # website
 
-<a href="https://search-user-github.herokuapp.com/" target="_blank">search-user-github</a>
+<a href="https://claudion3.github.io/Search_github_user_using_Reactjs/. " target="_blank">search-user-github</a>
